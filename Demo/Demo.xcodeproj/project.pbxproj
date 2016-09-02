@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0020FE1CFE75DD0034D47D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0020FD1CFE75DD0034D47D /* main.m */; };
+		9A0021011CFE75DD0034D47D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0021001CFE75DD0034D47D /* AppDelegate.m */; };
+		9A3D69CA1D24C609002C5665 /* PYAppContainerController+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D69C11D24C609002C5665 /* PYAppContainerController+Addtion.m */; };
+		9A3D69CB1D24C609002C5665 /* PYAppContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D69C31D24C609002C5665 /* PYAppContainerController.m */; };
+		9A3D69CC1D24C609002C5665 /* PYTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D69C51D24C609002C5665 /* PYTransitionAnimator.m */; };
+		9A3D69CD1D24C609002C5665 /* PYTransitionContext+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D69C71D24C609002C5665 /* PYTransitionContext+Controller.m */; };
+		9A4C7A411D6EA22F008F190A /* UIViewControllerAnimators.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D69C91D24C609002C5665 /* UIViewControllerAnimators.m */; };
+		9A5069011D66D6B80000E3C4 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5068FE1D66D6B80000E3C4 /* RootController.m */; };
+		9A5069021D66D6B80000E3C4 /* ViewCtrlGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5069001D66D6B80000E3C4 /* ViewCtrlGenerate.m */; };
+		9A5069041D66DBD70000E3C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5069031D66DBD70000E3C4 /* Images.xcassets */; };
+		9A5069061D66DCCA0000E3C4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5069051D66DCCA0000E3C4 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A0020F91CFE75DD0034D47D /* Demo.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0020FD1CFE75DD0034D47D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0020FF1CFE75DD0034D47D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0021001CFE75DD0034D47D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A00210D1CFE75DD0034D47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3D69C01D24C609002C5665 /* PYAppContainerController+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PYAppContainerController+Addtion.h"; sourceTree = "<group>"; };
+		9A3D69C11D24C609002C5665 /* PYAppContainerController+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PYAppContainerController+Addtion.m"; sourceTree = "<group>"; };
+		9A3D69C21D24C609002C5665 /* PYAppContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYAppContainerController.h; sourceTree = "<group>"; };
+		9A3D69C31D24C609002C5665 /* PYAppContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYAppContainerController.m; sourceTree = "<group>"; };
+		9A3D69C41D24C609002C5665 /* PYTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTransitionAnimator.h; sourceTree = "<group>"; };
+		9A3D69C51D24C609002C5665 /* PYTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTransitionAnimator.m; sourceTree = "<group>"; };
+		9A3D69C61D24C609002C5665 /* PYTransitionContext+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PYTransitionContext+Controller.h"; sourceTree = "<group>"; };
+		9A3D69C71D24C609002C5665 /* PYTransitionContext+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PYTransitionContext+Controller.m"; sourceTree = "<group>"; };
+		9A3D69C81D24C609002C5665 /* UIViewControllerAnimators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerAnimators.h; sourceTree = "<group>"; };
+		9A3D69C91D24C609002C5665 /* UIViewControllerAnimators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerAnimators.m; sourceTree = "<group>"; };
+		9A5068FD1D66D6B80000E3C4 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		9A5068FE1D66D6B80000E3C4 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		9A5068FF1D66D6B80000E3C4 /* ViewCtrlGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCtrlGenerate.h; sourceTree = "<group>"; };
+		9A5069001D66D6B80000E3C4 /* ViewCtrlGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCtrlGenerate.m; sourceTree = "<group>"; };
+		9A5069031D66DBD70000E3C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A5069051D66DCCA0000E3C4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0020F61CFE75DD0034D47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0020F01CFE75DD0034D47D = {
+			isa = PBXGroup;
+			children = (
+				9A0020FB1CFE75DD0034D47D /* Demo */,
+				9A0020FA1CFE75DD0034D47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0020FA1CFE75DD0034D47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0020F91CFE75DD0034D47D /* Demo.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0020FB1CFE75DD0034D47D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9A5068FC1D66D6B80000E3C4 /* Source */,
+				9A3D69BF1D24C609002C5665 /* PYContainer */,
+				9A0020FF1CFE75DD0034D47D /* AppDelegate.h */,
+				9A0021001CFE75DD0034D47D /* AppDelegate.m */,
+				9A00210D1CFE75DD0034D47D /* Info.plist */,
+				9A5069031D66DBD70000E3C4 /* Images.xcassets */,
+				9A0020FC1CFE75DD0034D47D /* Supporting Files */,
+				9A5069051D66DCCA0000E3C4 /* Launch Screen.storyboard */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		9A0020FC1CFE75DD0034D47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0020FD1CFE75DD0034D47D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A3D69BF1D24C609002C5665 /* PYContainer */ = {
+			isa = PBXGroup;
+			children = (
+				9A3D69C01D24C609002C5665 /* PYAppContainerController+Addtion.h */,
+				9A3D69C11D24C609002C5665 /* PYAppContainerController+Addtion.m */,
+				9A3D69C21D24C609002C5665 /* PYAppContainerController.h */,
+				9A3D69C31D24C609002C5665 /* PYAppContainerController.m */,
+				9A3D69C41D24C609002C5665 /* PYTransitionAnimator.h */,
+				9A3D69C51D24C609002C5665 /* PYTransitionAnimator.m */,
+				9A3D69C61D24C609002C5665 /* PYTransitionContext+Controller.h */,
+				9A3D69C71D24C609002C5665 /* PYTransitionContext+Controller.m */,
+				9A3D69C81D24C609002C5665 /* UIViewControllerAnimators.h */,
+				9A3D69C91D24C609002C5665 /* UIViewControllerAnimators.m */,
+			);
+			name = PYContainer;
+			path = ../../PYContainer;
+			sourceTree = "<group>";
+		};
+		9A5068FC1D66D6B80000E3C4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9A5068FD1D66D6B80000E3C4 /* RootController.h */,
+				9A5068FE1D66D6B80000E3C4 /* RootController.m */,
+				9A5068FF1D66D6B80000E3C4 /* ViewCtrlGenerate.h */,
+				9A5069001D66D6B80000E3C4 /* ViewCtrlGenerate.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0020F81CFE75DD0034D47D /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0021101CFE75DD0034D47D /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				9A0020F51CFE75DD0034D47D /* Sources */,
+				9A0020F61CFE75DD0034D47D /* Frameworks */,
+				9A0020F71CFE75DD0034D47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 9A0020F91CFE75DD0034D47D /* Demo.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0020F11CFE75DD0034D47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yr;
+				TargetAttributes = {
+					9A0020F81CFE75DD0034D47D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GV755N8JWU;
+					};
+				};
+			};
+			buildConfigurationList = 9A0020F41CFE75DD0034D47D /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0020F01CFE75DD0034D47D;
+			productRefGroup = 9A0020FA1CFE75DD0034D47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0020F81CFE75DD0034D47D /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0020F71CFE75DD0034D47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5069061D66DCCA0000E3C4 /* Launch Screen.storyboard in Resources */,
+				9A5069041D66DBD70000E3C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0020F51CFE75DD0034D47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4C7A411D6EA22F008F190A /* UIViewControllerAnimators.m in Sources */,
+				9A3D69CA1D24C609002C5665 /* PYAppContainerController+Addtion.m in Sources */,
+				9A5069011D66D6B80000E3C4 /* RootController.m in Sources */,
+				9A3D69CB1D24C609002C5665 /* PYAppContainerController.m in Sources */,
+				9A0021011CFE75DD0034D47D /* AppDelegate.m in Sources */,
+				9A3D69CC1D24C609002C5665 /* PYTransitionAnimator.m in Sources */,
+				9A3D69CD1D24C609002C5665 /* PYTransitionContext+Controller.m in Sources */,
+				9A5069021D66D6B80000E3C4 /* ViewCtrlGenerate.m in Sources */,
+				9A0020FE1CFE75DD0034D47D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A00210E1CFE75DD0034D47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A00210F1CFE75DD0034D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0021111CFE75DD0034D47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yr.Demo;
+				PRODUCT_NAME = Demo.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		9A0021121CFE75DD0034D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yr.Demo;
+				PRODUCT_NAME = Demo.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0020F41CFE75DD0034D47D /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A00210E1CFE75DD0034D47D /* Debug */,
+				9A00210F1CFE75DD0034D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0021101CFE75DD0034D47D /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0021111CFE75DD0034D47D /* Debug */,
+				9A0021121CFE75DD0034D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0020F11CFE75DD0034D47D /* Project object */;
+}
